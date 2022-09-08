@@ -1,0 +1,102 @@
+\documentclass{article}
+\usepackage{newtxtext}
+\usepackage{geometry}
+\usepackage[dvipsnames,svgnames]{xcolor}
+\usepackage[strict]{changepage} % 提供一个 adjustwidth 环境
+\usepackage{framed} % 实现方框效果
+
+\geometry{a4paper,centering,scale=0.8}
+% environment derived from framed.sty: see leftbar environment definition
+\definecolor{formalshade}{rgb}{0.95,0.95,1} % 文本框颜色
+\definecolor{greenshade}{rgb}{0.90,0.99,0.91} % 绿色文本框，竖线颜色设为 Green
+\definecolor{redshade}{rgb}{1.00,0.90,0.90}% 红色文本框，竖线颜色设为 LightCoral
+\definecolor{brownshade}{rgb}{0.99,0.97,0.93} % 莫兰迪棕色，竖线颜色设为 BurlyWood
+% 注意行末需要把空格注释掉，不然画出来的方框会有空白竖线
+
+
+%---------------定义紫色环境-----------------------------
+\newenvironment{purple}{%
+\def\FrameCommand{%
+\hspace{1pt}%
+{\color{DarkBlue}\vrule width 2pt}%
+{\color{formalshade}\vrule width 4pt}%
+\colorbox{formalshade}%
+}%
+\MakeFramed{\advance\hsize-\width\FrameRestore}%
+\noindent\hspace{-4.55pt}% disable indenting first paragraph
+\begin{adjustwidth}{}{7pt}%
+\vspace{2pt}\vspace{2pt}%
+}
+{%
+\vspace{2pt}\end{adjustwidth}\endMakeFramed%
+}
+%--------------------------------------------------------
+%---------------定义棕色环境-----------------------------
+\newenvironment{brown}{%
+\def\FrameCommand{%
+\hspace{1pt}%
+{\color{BurlyWood}\vrule width 2pt}%
+{\color{brownshade}\vrule width 4pt}%
+\colorbox{brownshade}%
+}%
+\MakeFramed{\advance\hsize-\width\FrameRestore}%
+\noindent\hspace{-4.55pt}% disable indenting first paragraph
+\begin{adjustwidth}{}{7pt}%
+\vspace{2pt}\vspace{2pt}%
+}
+{%
+\vspace{2pt}\end{adjustwidth}\endMakeFramed%
+}
+%--------------------------------------------------------
+%---------------定义绿色环境--------------------------
+\newenvironment{green}{%
+\def\FrameCommand{%
+\hspace{1pt}%
+{\color{Green}\vrule width 2pt}%
+{\color{greenshade}\vrule width 4pt}%
+\colorbox{greenshade}%
+}%
+\MakeFramed{\advance\hsize-\width\FrameRestore}%
+\noindent\hspace{-4.55pt}% disable indenting first paragraph
+\begin{adjustwidth}{}{7pt}%
+\vspace{2pt}\vspace{2pt}%
+}
+{%
+\vspace{2pt}\end{adjustwidth}\endMakeFramed%
+}
+%--------------------------------------------------------
+%---------------定义红色环境-----------------------------
+\newenvironment{red}{%
+\def\FrameCommand{%
+\hspace{1pt}%
+{\color{LightCoral}\vrule width 2pt}%
+{\color{redshade}\vrule width 4pt}%
+\colorbox{redshade}%
+}%
+\MakeFramed{\advance\hsize-\width\FrameRestore}%
+\noindent\hspace{-4.55pt}% disable indenting first paragraph
+\begin{adjustwidth}{}{7pt}%
+\vspace{2pt}\vspace{2pt}%
+}
+{%
+\vspace{2pt}\end{adjustwidth}\endMakeFramed%
+}
+%--------------------------------------------------------
+
+
+
+
+
+
+
+
+
+\begin{document}
+
+\section{The first section of my article}
+
+\begin{red}
+abaabaababa
+\end{red}
+
+\end{document}
