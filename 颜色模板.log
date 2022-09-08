@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.28)  8 SEP 2022 10:01
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.28)  8 SEP 2022 16:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**11
-(./11.tex
+**颜色模板
+(./颜色模板.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (d:/text live/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -210,8 +210,9 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 94.
 Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
  -> d:/text live/texlive/2022/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Regular.otf
- (./11.aux)
-\openout1 = `11.aux'.
+
+No file 颜色模板.aux.
+\openout1 = `颜色模板.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
@@ -223,7 +224,7 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 94.
- (d:/text live/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
+(d:/text live/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 94.
@@ -337,14 +338,14 @@ Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tn
  -> d:/text live/texlive/2022/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Bold.otf
 [1
 
-] (./11.aux) ) 
+] (./颜色模板.aux) ) 
 Here is how much of TeX's memory you used:
- 5760 strings out of 476179
- 142019 string characters out of 5808662
- 514376 words of memory out of 5000000
+ 5758 strings out of 476179
+ 142023 string characters out of 5808662
+ 514382 words of memory out of 5000000
  26462 multiletter control sequences out of 15000+600000
  469363 words of font info for 41 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,5n,99p,295b,312s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,5n,99p,297b,312s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 11.pdf (1 page).
+Output written on 颜色模板.pdf (1 page).
