@@ -8,6 +8,7 @@
 * 幂零态射(nilpotent mophism)：
   若$f\in Hom_{Nil(V)}\left((X,x),(Y,y)\right)$，且有$fx=yf$，则$f$为幂零态射
   <img src=幂零态射关系图.jpg width=70%/>
+
 #### 幂零态射的维数
 用$K^p$表示$p$维的线性空间；$J_p$表示$K^p$上的幂零变换，其在标准基下对应的矩阵是$p$阶约当块。定义$dim(X,x)=dim(X)$
 
