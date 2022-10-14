@@ -72,5 +72,5 @@ $Hom((X,x),(Y,y))\rightarrow Hom((X\otimes B,x\otimes b),(Y\otimes B,y\otimes b)
   $$(X,x)\longmapsto (Hom((A,a),(X,x)),\theta_x)$$
   其中 $\theta_x=fx,\;\forall f\in Hom((A,a),(X,x))$
 - $\forall (X,x),(Y,y)\in Nil(v)$，函数
-$Hom((X,x),(Y,y))\otimes Hom(Hom((A,a),(X,x)),Hom((A,a),(Y,y)))$
+$Hom((X,x),(Y,y))\rightarrow Hom(Hom((A,a),(X,x)),Hom((A,a),(Y,y)))$
 $$f\longmapsto Hom((A,a),f)$$
