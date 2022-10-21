@@ -74,3 +74,12 @@ $Hom((X,x),(Y,y))\rightarrow Hom((X\otimes B,x\otimes b),(Y\otimes B,y\otimes b)
 - $\forall (X,x),(Y,y)\in Nil(v)$，函数
 $Hom((X,x),(Y,y))\rightarrow Hom(Hom((A,a),(X,x)),Hom((A,a),(Y,y)))$
 $$f\longmapsto Hom((A,a),f)$$
+
+
+找到$F[x]$的所有幂零算子
+
+$f(x)\mapsto F^{(N)}(x_0)\quad(\forall N\in N_+\;,\;\forall x_0 \in R)$
+
+其中$F(x)=\sum\limits_{i=1}^{m}k_if^{(i)}(x)+\sum\limits_{j=1}^{n} \int_{a_j}^{b_j}   \underset{j\text{次}}{\underbrace{\int_{0}^{t}  \cdots \int_{0}^{t}}}    f(t)\underset{j\text{次}}{\underbrace{dt  \cdots dt}} \\
+=k_1f'(x)+k_2f''(x)+\cdots+k_mf^{(m)}(x)  +\int_{a_1}^{b_1}\int_{0}^{t}f(t)dt   +\int_{a_2}^{b_2}\int_{0}^{t}\int_{0}^{t}f(t)dtdt+\cdots+\int_{a_n}^{b_n}   \underset{n\text{次}}{\underbrace{\int_{0}^{t}  \cdots \int_{0}^{t}}}    f(t)\underset{n\text{次}}{\underbrace{dt  \cdots dt}} $
+其 中$\forall m,n\in N_+ \;;\;\forall k_i,a_j,b_j\in R$
